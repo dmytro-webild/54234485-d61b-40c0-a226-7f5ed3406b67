@@ -27,7 +27,7 @@ export default function LandingPage() {
       borderRadius="rounded"
       contentWidth="medium"
       sizing="largeSizeMediumTitles"
-      background="aurora"
+      background="circleGradient"
       cardStyle="inset"
       primaryButtonStyle="diagonal-gradient"
       secondaryButtonStyle="layered"
@@ -52,7 +52,7 @@ export default function LandingPage() {
         <HeroSplitDualMedia
           title="24/7 Emergency Tree Service in Middle Tennessee"
           description="Fast, professional tree removal, trimming, and storm cleanup. Licensed, insured, and locally owned. We respond immediately to storm damage and dangerous trees."
-          background={{ variant: "aurora" }}
+          background={{ variant: "plain" }}
           tag="5-Star Rated | 150+ Reviews"
           tagIcon={Star}
           tagAnimation="slide-up"
